@@ -1,0 +1,69 @@
+/* === Umum === */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f7;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* === Header === */
+  .header {
+    padding: 30px 20px;
+    background: #005c4b; /* warna hijau tua, bisa disesuaikan */
+    color: white;
+  }
+  
+  .header .logo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 15px;
+  }
+  
+  .header h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+  }
+  
+  .header p {
+    margin: 0;
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  
+  /* === Menu === */
+  .menu {
+    margin: 40px auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .menu-btn {
+    display: block;
+    text-decoration: none;
+    background: #008060;  /* hijau tua lembut */
+    color: #fff;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .menu-btn:hover {
+    background: #00a374; /* efek hover */
+  }
+  
+  /* === Footer === */
+  .footer {
+    margin: 40px 0 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
