@@ -66,4 +66,23 @@ body {
     font-size: 14px;
     color: #555;
   }
+/* Mode Gelap */
+body.dark {
+  background: #222;
+  color: #f0f0f0;
+}
+
+body.dark .header {
+  background: #333;
+}
+
+body.dark .menu-btn {
+  background: #444;
+}
+
+body.dark .menu-btn:hover {
+  background: #666;
+}
+
+
   
